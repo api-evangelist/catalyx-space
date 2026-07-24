@@ -1,19 +1,50 @@
 aid: catalyx-space
 name: Catalyx Space
-description: Catalyx Space is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Catalyx Space Inc. is a San Francisco based space infrastructure company
+  building an integrated platform for deploying payloads to low Earth orbit and
+  returning them safely to the ground. The company develops autonomous orbital
+  labs and reusable reentry vehicles (ReX) that use origami-inspired hypersonic
+  decelerator technology to deliver heavy-mass downmass from orbit to ocean
+  recovery zones, positioning itself as the fastest and most affordable way to
+  deploy experiments and manufacture in orbit. Catalyx handles end-to-end space
+  operations including spacecraft development, payload integration, launch
+  logistics, mission control, and recovery. Surfaced as a Techstars (and
+  Outlander) portfolio company and added to the API Evangelist network for
+  enrichment; the company currently publishes a marketing and careers presence
+  but no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/catalyx-space/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67cf249f3dc5747489bb70a4/67d0ac42e26cac98b02ba864_Frame%201000001439.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+- outlander
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Space
+- Aerospace
+- Reentry Systems
+- Orbital Logistics
+- In-Space Manufacturing
+- Launch Services
+- Space Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/catalyx-space-domain-security.yml
 - type: Website
-  url: https://spacerickshaw.com/
+  url: https://www.catalyx.space/
+- type: About
+  url: https://www.catalyx.space/company
+- type: Team
+  url: https://www.catalyx.space/team
+- type: Careers
+  url: https://www.catalyx.space/careers
+- type: Blog
+  url: https://www.catalyx.space/newsroom
+- type: Support
+  url: mailto:business@catalyx.space
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
